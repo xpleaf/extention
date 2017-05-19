@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日志下载</title>
+</head>
+<body>
+    <h3>日志详情（点击可直接下载）：</h3>
+    <ul>
+        <li>
+            <a href="{{ url_for('downloader', filename='hadoop-hadoop-datanode-gdc-dn159-formal.i.nease.net.log') }}">
+            hadoop-hadoop-datanode-gdc-dn159-formal.i.nease.net.log
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('downloader', filename='hbase-hadoop-regionserver-gdc-dn159-formal.i.nease.net.log') }}">
+                hbase-hadoop-regionserver-gdc-dn159-formal.i.nease.net.log
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('downloader', filename='yarn-hadoop-nodemanager-gdc-hostname.log') }}">
+                yarn-hadoop-nodemanager-gdc-hostname.log
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('downloader', filename='hwtool.log') }}">
+                hwtool.log
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('downloader', filename='MegaSAS.log') }}">
+                MegaSAS.log
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('downloader', filename='message.log') }}">
+                message.log
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('downloader', filename='pdlist.log') }}">
+                pdlist.log
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('downloader', filename='dnauto.log') }}">
+                dnauto.log
+            </a>
+        </li>
+    </ul>
+</body>
+</html>
